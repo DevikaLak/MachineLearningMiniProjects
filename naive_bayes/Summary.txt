@@ -1,0 +1,60 @@
+Summary file
+
+############### Naive Bayessian ######################
+GaussianNB Accuracy = 0.973833902162
+GaussianNB Traning time = 1.344 s
+GaussianNB Prediction time = 0.224 s
+
+############## SVM ##################################
+SVM Accuracy (kernel = linear) = 0.984072810011
+SVM Training time (kernel = linear) = 169.557 s
+SVM Prediction time (kernel = linear) = 17.329 s
+
+SVM (1% Training data) Accuracy (kernel = linear) = 0.884527872582
+SVM (1% Training data) Training time (kernel = linear) = 0.094 s
+SVM (1% Training data) Prediction time (kernel = linear) = 1.09 s
+
+SVM (1% Training data) Accuracy (kernel = rbf) = 0.616040955631
+SVM (1% Training data) Training time (kernel = rbf) = 0.11 s
+SVM (1% Training data) Prediction time (kernel = rbf) = 1.107 s
+
+SVM (1% Training data) Accuracy (C=10.0, kernel = rbf) = 0.616040955631
+SVM (1% Training data) Training time (C=10.0, kernel = rbf) = 0.113 s
+SVM (1% Training data) Prediction time (C=10.0, kernel = rbf) = 1.108 s
+
+SVM (1% Training data) Accuracy (C=100.0, kernel = rbf) = 0.616040955631
+SVM (1% Training data) Training time (C=100.0, kernel = rbf) = 0.118 s
+SVM (1% Training data) Prediction time (C=100.0, kernel = rbf) = 1.127 s
+
+SVM (1% Training data) Accuracy (C=1000.0, kernel = rbf) = 0.821387940842
+SVM (1% Training data) Training time (C=1000.0, kernel = rbf) = 0.108 s
+SVM (1% Training data) Prediction time (C=1000.0, kernel = rbf) = 1.071 s
+
+SVM (1% Training data) Accuracy (C=10000.0, kernel = rbf) = 0.892491467577
+SVM (1% Training data) Training time (C=10000.0, kernel = rbf) = 0.105 s
+SVM (1% Training data) Prediction time (C=10000.0, kernel = rbf) = 0.895 s
+
+***** Optimized SVM *****
+SVM Accuracy (C=10000.0, kernel = rbf) = 0.990898748578
+SVM Training time (C=10000.0, kernel = rbf) = 102.629 s
+SVM Prediction time (C=10000.0, kernel = rbf) = 10.718 s
+
+################# Decision Trees ##########################################
+DT Accuracy (min_sample_split=40) = 0.978384527873
+DT Training time (min_sample_split=40) = 81.137 s
+DT Prediction time (min_sample_split=40) = 0.034 s
+
+DT Accuracy (1% features) (min_sample_split=40) = 0.966439135381
+DT Training time (1% features) (min_sample_split=40) = 6.159 s
+DT Prediction time (1% features) (min_sample_split=40) = 0.002 s
+
+
+################# Random Forest ##########################################
+*********** Optimized RF *****************
+RF Accuracy (min_sample_split=40) = 0.978384527873
+RF Training time (min_sample_split=40) = 81.137 s
+RF Prediction time (min_sample_split=40) = 0.034 s
+
+
+
+
